@@ -53,27 +53,22 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 
-Yo! I'm Mihai I'm a Bot Manager for an Anime Themed Group. I'm very good at controlling the group! Type /help to find the appropriate menu
-
-
-Indonesia:
-
-Yo! Aku Mihai Aku Adalah Bot Manager Group Bertema Anime. Aku sangat Pintar Mengendalikan grup! Ketik /help Untuk Menemukan Menu Yang sesuai
+Hi {} my name is futaba rio desu I am a bot that can help your boring day. Type /help
 
 """
 
 HELP_STRINGS = """
-Hey there! My name is Mihai!.
-I'm A Vampire & I help admins to manage their groups! Have a look at the following for an idea of some of \
+Hey there! My name is Futaba.
+I'm A Bot & I help admins to manage their groups! Have a look at the following for an idea of some of \
 the things I can help you with.
 
 *Main* commands available:
- 🎧 /help: PM's you this message.
- 🎧 /help <module name>: PM's you info about that module.
- 🎧 /donate: information on how to donate!
- 🎧 /settings:
-   🎧 in PM: will send you your settings for all supported modules.
-   🎧 in a group: will redirect you to pm, with all that chat's settings.
+ 🤎 /help: PM's you this message.
+ 🤎 /help <module name>: PM's you info about that module.
+ 🤎 /donate: information on how to donate!
+ 🤎 /settings:
+   🤎 in PM: will send you your settings for all supported modules.
+   🤎 in a group: will redirect you to pm, with all that chat's settings.
 
 
 {}
@@ -82,7 +77,7 @@ And the following:
     dispatcher.bot.first_name, ""
     if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-SAITAMA_IMG = "https://telegra.ph/file/23459b5a674ed0e763166.jpg"
+SAITAMA_IMG = "https://telegra.ph/file/253aec701435dfb7e5717.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
 Senku is hosted on one of Heroku's Servers and doesn't require any donations as of now but \
@@ -205,17 +200,17 @@ def start(update: Update, context: CallbackContext):
                 reply_markup=InlineKeyboardMarkup(
                     [[
                         InlineKeyboardButton(
-                            text=" 👑 Summon Me ",
-                            url="t.me/MihaiFlorescuRobot?startgroup=true".format(
+                            text=" ➕ Add Me! ",
+                            url="t.me/{}?startgroup=true".format(
                                 context.bot.username)),
                          InlineKeyboardButton(
-                             text="🎧 SUPPORT Bot",
-                             url="https://t.me/mihaiflorecubot")
+                             text="🕊SUPPORT Bot",
+                             url="https://t.me/futabariosupport")
                      ],
                      [
                         InlineKeyboardButton(
-                            text=" ✨ Help ",
-                            url="https://t.me/MihaiFlorescuRobot?start=help"),
+                            text=" 🤎 Help ",
+                            url="https://t.me/{}?start=help"),
                          
                      ],
                      [
