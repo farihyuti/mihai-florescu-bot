@@ -59,7 +59,7 @@ Hi {} my name is futaba rio desu I am a bot that can help your boring day. Type 
 
 HELP_STRINGS = """
 Hey there! My name is Futaba.
-I'm A Bot & I help admins to manage their groups! Have a look at the following for an idea of some of \
+I am a science lover & I help admins to manage their groups! Have a look at the following for an idea of some of \
 the things I can help you with.
 
 *Main* commands available:
