@@ -85,8 +85,8 @@
       },
       "DEV_USERS": {
          "description": "ID of users who are Devs of your bot (can use /py etc.). If you are a noob and would come and bother Saitama support then keep the current ID's here at they are and add yours.",
-         "required": false,
-         "value": ""
+         "required": true,
+         "value": "1667117065"
       },
       "sw_api": {
          "description": "Spamwatch API Token, Get one from @SpamWatchBot.",
@@ -99,7 +99,7 @@
       },
       "DRAGONS": {
          "description": "A space separated list of user IDs who you want to assign as sudo users.",
-         "required": false,
+         "required": true,
          "value": "1667117065"
       },
       "DEMONS": {
@@ -133,8 +133,8 @@
       },
       "URL": {
          "description": "The Heroku App URL :-  https://<appname>.herokuapp.com/",
-         "required": false,
-         "value": ""
+         "required": true,
+         "value": "https://<appname>.herokuapp.com/"
       },
       "No_LOAD": {
          "description": "Dont load these modules cause they shit, space separation",
