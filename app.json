@@ -1,6 +1,6 @@
 {
-      "name": "hikigaya",
-      "description": "An Anime themed Telegram group management bot.",
+      "name": "Mihai",
+      "description": "a telegram Bot management",
       "keywords": [
          "telegram",
          "anime",
@@ -8,8 +8,8 @@
          "manager",
          "Senku"
       ],   
-   "repository": "https://github.com/Nksama/hikigaya",
-   "logo": "https://telegra.ph/file/993f1fbb29e2b0fc1a860.jpg",
+   "repository": "https://github.com/farihyuti/mihai-florescu-bot",
+   "logo": "https://telegra.ph/file/c7e8a224a7057a0f266e6.jpg",
    "addons": [
     {
          "options": {
@@ -52,11 +52,11 @@
       "OWNER_ID": {
          "description": "Your user ID as an integer.",
          "required": true,
-         "value": "825664681"
+         "value": "1667117065"
       },
       "OWNER_USERNAME": {
          "description": "Your username without the @",
-         "value": "nk_guy"
+         "value": "Xlaaf"
       },
       "SUPPORT_CHAT": {
          "description": "Your Telegram support group chat username where your users will go and bother you with shit But be like: MyGroupChatUsernameBlah. If this ever points to saitama support than consider you made an enemy.",
