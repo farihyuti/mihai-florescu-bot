@@ -1,5 +1,6 @@
 future
 emoji
+cloudscraper
 lxml
 beautifulsoup4
 requests
